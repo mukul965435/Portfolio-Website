@@ -72,7 +72,7 @@ export default function Hero({ dark }) {
           <motion.p
             className={`font-mono text-sm md:text-base font-medium tracking-widest uppercase ${dark ? 'text-white/60' : 'text-black/50'}`}
           >
-            B.Tech CS Student &amp; Full Stack Developer
+            Bachelor of Technology in Computer Science &amp; Full Stack Developer
           </motion.p>
           <div className={`h-px flex-1 max-w-16 ${dark ? 'bg-white/20' : 'bg-black/20'}`} />
         </motion.div>
@@ -158,7 +158,7 @@ export default function Hero({ dark }) {
           {[
             { label: 'Projects', value: '3+' },
             { label: 'Skills', value: '12+' },
-            { label: 'Year', value: '2nd' },
+            { label: 'Year', value: '3rd' },
           ].map((s) => (
             <div key={s.label} className="text-center">
               <div className={`font-display font-bold text-3xl ${dark ? 'text-white' : 'text-black'}`}>

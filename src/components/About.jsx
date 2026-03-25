@@ -116,7 +116,7 @@ export default function About({ dark }) {
             variants={fadeUp}
             className={`text-lg leading-relaxed mb-6 ${dark ? 'text-white/70' : 'text-black/70'}`}
           >
-            I'm a passionate B.Tech Computer Science student at{' '}
+            I'm a passionate Bachelor of Technology in Computer Science student at{' '}
             <span className={`font-semibold ${dark ? 'text-white' : 'text-black'}`}>Lovely Professional University</span>, 
             deeply interested in full stack development and building real-world scalable applications.
           </motion.p>
