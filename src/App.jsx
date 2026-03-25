@@ -5,6 +5,7 @@ import Marquee from './components/Marquee'
 import About from './components/About'
 import Skills from './components/Skills'
 import Projects from './components/Projects'
+import Achievements from './components/Achievements'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import CursorGlow from './components/CursorGlow'
@@ -34,6 +35,7 @@ export default function App() {
         <About dark={dark} />
         <Skills dark={dark} />
         <Projects dark={dark} />
+        <Achievements dark={dark} />
         <Contact dark={dark} />
       </main>
       <Footer dark={dark} />
