@@ -15,7 +15,7 @@ const projects = [
     accentBg: 'from-violet-500/10 to-purple-600/5',
     number: '01',
     emoji: '🎯',
-    links: { github: 'https://github.com', live: '#' },
+    links: { github: 'https://github.com', live: 'https://hiresnap.vercel.app' },
     features: ['Role-based Auth', 'Resume Uploads', 'Job Posting', 'Dashboard'],
   },
   {
