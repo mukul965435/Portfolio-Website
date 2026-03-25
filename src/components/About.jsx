@@ -77,12 +77,17 @@ export default function About({ dark }) {
               className="absolute inset-4 rounded-full border border-dashed border-neon/20"
             />
 
-            {/* Avatar placeholder */}
-            <div className={`absolute inset-6 rounded-full flex items-center justify-center overflow-hidden border-4 ${dark ? 'border-white/10 bg-gradient-to-br from-accent/20 to-purple-900/40' : 'border-black/10 bg-gradient-to-br from-accent/10 to-purple-100'}`}>
-              <div className="text-center">
-                <div className="font-display font-black text-7xl text-accent/40">MK</div>
-                <div className={`font-mono text-xs mt-2 ${dark ? 'text-white/30' : 'text-black/30'}`}>
-                  &lt;developer /&gt;
+            {/* Avatar Profile Picture */}
+            <div className={`absolute inset-6 rounded-full flex items-center justify-center overflow-hidden border-4 ${dark ? 'border-white/10' : 'border-black/10'} group`}>
+              <img 
+                src="/profile.png" 
+                alt="Mukul Kumar" 
+                className="w-full h-full object-cover transition-all duration-500 rounded-full group-hover:scale-110 grayscale hover:grayscale-0"
+              />
+              {/* Fallback in case image doesn't load or during initial state */}
+              <div className="absolute inset-0 flex items-center justify-center -z-10 opacity-20">
+                <div className="text-center">
+                  <div className="font-display font-black text-7xl text-accent/40">MK</div>
                 </div>
               </div>
             </div>
